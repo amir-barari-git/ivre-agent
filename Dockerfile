@@ -6,7 +6,7 @@ RUN echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config
 
 RUN sed -i 's/#PasswordAuthentication yes/PasswordAuthentication yes/' /etc/ssh/sshd_config
 
-RUN echo "root:YourPassword" | chpasswd
+RUN echo "root:Kami1351@" | chpasswd
 
 RUN service ssh restart
 
